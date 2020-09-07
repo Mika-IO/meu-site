@@ -30,7 +30,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} width='30px' height='40px'/>
+                <AboutImg alt="profile picture" filename={img} width="30px" height="40px" />
               </div>
             </Fade>
           </Col>
@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Me apaixoei por código ainda criança quando gabaritava os questionários de língua portuguesa no laborátorio de informática da escola, um detalhe, todos as páginas eram estáticas.'}
+                    'Me apaixoei por código ainda criança quando gabaritava os questionários de língua portuguesa no laborátorio de informática da escola, um detalhe, todas as páginas eram estáticas.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'No final do ensino fundamental já estava certo do que eu queria da vida, Programar! Entrei no curso técnico em informática no Instituto Federal onde tive contato com Pascal e algortimos. Porém me apaixonei pela sintaxe de uma linguagem bem mais simples. Python!'}
+                    'No final do ensino fundamental já estava certo do que eu queria da vida, Programar! Entrei no curso técnico em informática no Instituto Federal onde tive contato com Pascal, algoritmos e lógica de programação. Porém me apaixonei pela sintaxe de uma linguagem bem mais simples. Python!'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'No momento estou imerso no desenvolvimento web e mobile. Estudando coisas como ReactJS, React Native e DjangoREST Framework. Deixando um pouco de lado Python e focando em uma stack muito importante. The Javascript.'}
+                  {paragraphThree ||
+                    'No momento estou imerso no desenvolvimento web e mobile. Estudando coisas como ReactJS, React Native e DjangoREST Framework. Focando mais em uma stack que domina o mercado. A stack Javascript!'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
